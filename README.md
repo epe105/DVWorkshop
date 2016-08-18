@@ -1,7 +1,7 @@
 ## Red Hat JBoss Data Virtualization Workshop
 The objective of this workshop is to get familiar with Red Hat JBoss Data Virtualization and Data Virtualization in general.
 
-Prerequisites
+Prerequisites-change
 
 1. OpenJDK 1.7 or 1.8 or Oracle JDK 1.7 or 1.8
 
