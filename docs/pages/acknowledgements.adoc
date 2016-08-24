@@ -3,7 +3,7 @@
 
 == Acknowlegdement
 
-[cols="2"] 
+[cols="2"]
 |===
 |Version Number
 |6.2.0
@@ -17,14 +17,12 @@
 Kenny Peeples (http://twitter.com/ossmentor[@ossmentor])
 
 |Contributors
-|Blaine Mincey 
+|Blaine Mincey
 
 Marco Rabelink
 
-Serhat Dirik 
+Serhat Dirik
 
 Vijay Chintalapati
 
 |===
-
-
