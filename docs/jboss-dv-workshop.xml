@@ -4,10 +4,10 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
 <info>
 <title>JBoss Data Virtualization Workshop</title>
-<date>2015-11-23</date>
+<date>2016-08-18</date>
 </info>
-<chapter xml:id="_acknowlegdement">
-<title>Acknowlegdement</title>
+<chapter xml:id="_acknowlegdement_test_change_2">
+<title>Acknowlegdement - Test Change 2</title>
 <informaltable frame="all" rowsep="1" colsep="1">
 <tgroup cols="2">
 <colspec colname="col_1" colwidth="50*"/>

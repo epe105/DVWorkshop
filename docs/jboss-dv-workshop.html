@@ -514,7 +514,7 @@ table.CodeRay td.code>pre{padding:0}
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_acknowlegdement">1. Acknowlegdement</a></li>
+<li><a href="#_acknowlegdement_test_change_2">1. Acknowlegdement - Test Change 2</a></li>
 <li><a href="#_workshop_version">2. Workshop version</a></li>
 <li><a href="#_introduction">3. Introduction</a>
 <ul class="sectlevel2">
@@ -631,7 +631,7 @@ table.CodeRay td.code>pre{padding:0}
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="_acknowlegdement">1. Acknowlegdement</h2>
+<h2 id="_acknowlegdement_test_change_2">1. Acknowlegdement - Test Change 2</h2>
 <div class="sectionbody">
 <table class="tableblock frame-all grid-all spread">
 <colgroup>
@@ -1178,8 +1178,8 @@ Skip apply patch 3 step when you have downloaded the software from <a href="http
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="bash">[disconnected /] patch apply jboss-eap-6.4.3-patch.zip
 {
-    &quot;outcome&quot; : &quot;success&quot;,
-    &quot;result&quot; : {}
+    "outcome" : "success",
+    "result" : {}
 }
 [disconnected /] exit</code></pre>
 </div>
@@ -1328,7 +1328,7 @@ When the installation is complete, navigate to</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="xml"><span class="tag">&lt;installpath&gt;</span>/home/jboss/dv<span class="tag">&lt;/installpath&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml">&lt;installpath&gt;/home/jboss/dv&lt;/installpath&gt;</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -2965,22 +2965,22 @@ Now that the exercise for federating the customer table is complete, give it a t
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="xml"><span class="preprocessor">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
-<span class="tag">&lt;account_Output:customer_Output</span>                 <span class="attribute-name">xmlns:account_Output</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://www.metamatrix.com/account_Output</span><span class="delimiter">&quot;</span></span>         <span class="attribute-name">xmlns:xsi</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://www.w3.org/2001/XMLSchema-instance</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-        <span class="tag">&lt;customer_Output_Instance&gt;</span>
-                <span class="tag">&lt;customerid&gt;</span>CST01033<span class="tag">&lt;/customerid&gt;</span>
-                <span class="tag">&lt;firstname&gt;</span>Alexander<span class="tag">&lt;/firstname&gt;</span>
-                <span class="tag">&lt;lastname&gt;</span>Franken<span class="tag">&lt;/lastname&gt;</span>
-                <span class="tag">&lt;middlename&gt;</span>Horst<span class="tag">&lt;/middlename&gt;</span>
-                <span class="tag">&lt;streetaddress&gt;</span>Berliner Platz 85<span class="tag">&lt;/streetaddress&gt;</span>
-                <span class="tag">&lt;streetaddress2</span> <span class="attribute-name">xsi:nil</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">true</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
-                <span class="tag">&lt;city&gt;</span>Munich<span class="tag">&lt;/city&gt;</span>
-                <span class="tag">&lt;stateprovince</span> <span class="attribute-name">xsi:nil</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">true</span><span class="delimiter">&quot;</span></span><span class="tag">/&gt;</span>
-                <span class="tag">&lt;postalcode&gt;</span>80806<span class="tag">&lt;/postalcode&gt;</span>
-                <span class="tag">&lt;country&gt;</span>Germany<span class="tag">&lt;/country&gt;</span>
-                <span class="tag">&lt;phonenumber&gt;</span>0890877435<span class="tag">&lt;/phonenumber&gt;</span>
-        <span class="tag">&lt;/customer_Output_Instance&gt;</span>
-<span class="tag">&lt;/account_Output:customer_Output&gt;</span></code></pre>
+<pre class="CodeRay highlight"><code data-lang="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;account_Output:customer_Output 		xmlns:account_Output="http://www.metamatrix.com/account_Output" 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;customer_Output_Instance&gt;
+		&lt;customerid&gt;CST01033&lt;/customerid&gt;
+		&lt;firstname&gt;Alexander&lt;/firstname&gt;
+		&lt;lastname&gt;Franken&lt;/lastname&gt;
+		&lt;middlename&gt;Horst&lt;/middlename&gt;
+		&lt;streetaddress&gt;Berliner Platz 85&lt;/streetaddress&gt;
+		&lt;streetaddress2 xsi:nil="true"/&gt;
+		&lt;city&gt;Munich&lt;/city&gt;
+		&lt;stateprovince xsi:nil="true"/&gt;
+		&lt;postalcode&gt;80806&lt;/postalcode&gt;
+		&lt;country&gt;Germany&lt;/country&gt;
+		&lt;phonenumber&gt;0890877435&lt;/phonenumber&gt;
+	&lt;/customer_Output_Instance&gt;
+&lt;/account_Output:customer_Output&gt;</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -3716,7 +3716,7 @@ If you are requested to type in a username/password enter teiidUser/redhat1!. Th
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="sql"><span class="class">SELECT</span> * <span class="keyword">FROM</span> All_Customers.customer;</code></pre>
+<pre class="CodeRay highlight"><code data-lang="sql">SELECT * FROM All_Customers.customer;</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -3744,7 +3744,7 @@ If you are requested to type in a username/password enter teiidUser/redhat1!. Th
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="sql">SQL&gt; <span class="class">SELECT</span> * <span class="keyword">FROM</span> All_Customers.customer <span class="keyword">WHERE</span> customerid=<span class="string"><span class="delimiter">'</span><span class="content">CST01033</span><span class="delimiter">'</span></span>;</code></pre>
+<pre class="CodeRay highlight"><code data-lang="sql">SQL&gt; SELECT * FROM All_Customers.customer WHERE customerid='CST01033';</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -3762,7 +3762,7 @@ To search customers from the USA which is the SQL equivalent of</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="sql">SQL&gt; <span class="class">SELECT</span> * <span class="keyword">FROM</span> All_Customers.customer <span class="keyword">WHERE</span> country=<span class="string"><span class="delimiter">'</span><span class="content">USA</span><span class="delimiter">'</span></span>;</code></pre>
+<pre class="CodeRay highlight"><code data-lang="sql">SQL&gt; SELECT * FROM All_Customers.customer WHERE country='USA';</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -4305,7 +4305,7 @@ Select the Financials Demo workspace as the active workspace. In the navigation 
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-11-23 13:17:10 CET
+Last updated 2016-08-18 12:57:19 EDT
 </div>
 </div>
 </body>
